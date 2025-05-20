@@ -11,7 +11,7 @@ if number%2==0:
 else:
     print("เลขคี่")
 
-print("------------")
+print("-------------")
 
 #เขียนแบบลดรูป
 print("เลขคู่") if number%2==0 else print("เลขคี่")
