@@ -1,4 +1,5 @@
 #ตัวดำเนินการทางคณิตศาสตร์
+# -*- coding: utf-8 -*-
 
 number1,number2=5,2
 print("ตัวเลขที่ 1 = ",number1)
