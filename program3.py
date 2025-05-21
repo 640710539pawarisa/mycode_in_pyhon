@@ -2,6 +2,13 @@
 #และการแปลงชนิดของข้อมูล
 # -*- coding: utf-8 -*-
 
+# #คำสั่งเปลี่ยนเป็นภาษาไทย
+# import sys
+# import io 
+
+# sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+# print("เปลี่ยนเป็นภาษาไทย")
+
 name = input("กรุณาป้อนชื่อของคุณ:")#ใน()จะรอรับการป้อนข้อมูลเข้าไปที่หน้าต่างแสดงผล
 #year = input("กรุณาป้อนปีเกิดของคุณ (พ.ศ.):")
 #แปลงข้อมูลyearให้เป็น int แบบถาวรเลย
@@ -19,3 +26,11 @@ print("ปีนี้คุณอายุ : ",2568-year,"ปี")
 #เช็คชนิดข้อมูล
 print(type(name))
 print(type(year))#yearชนิดข้อมูลเดิม
+
+
+#     #วิธี run คือ python program9.py
+# #หรือ กด วิธีที่ 1: ใช้ Terminal แทนการกด Run ปกติ
+# เปิดไฟล์ .py
+
+# กดขวาบนไฟล์ แล้วเลือก
+# ✅ "Run Python File in Terminal" (อย่ากดปุ่ม ▶ ด้านบน)
